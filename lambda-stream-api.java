@@ -1,5 +1,3 @@
-package com.dakual;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,4 +18,3 @@ public class App
             .forEach( System.out::println );
     }
 }
-
