@@ -1,5 +1,3 @@
-package com.dakual;
-
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
 
@@ -10,7 +8,7 @@ public class App
             FileInputStream file = new FileInputStream(".gitignore");
             BufferedInputStream input = new BufferedInputStream(file);
         
-            int i = input .read();
+            int i = input.read();
             while (i != -1) {
                 System.out.print((char) i);
                 i = input.read();
@@ -22,4 +20,3 @@ public class App
         }
     }
 }
-
